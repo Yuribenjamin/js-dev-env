@@ -35,22 +35,49 @@ Review JS Pacakage Managers, setup up npm, security scanning
 
 - JavaScript Pacakage Managers :
 
-		- Bower.
-		- Npm.
-		- JSPM.
-		- Jam.
-		- volo.
+	- Bower.
+	- Npm.
+	- JSPM.
+	- Jam.
+	- volo.
 
 - NPM.
 
-		- Install Node and Npm.
-		- create package.json and paste it `bit.ly/jsdevpackagejson`
-		- install devDependencies.
-		- Pacakage security:
-			-	node security platform:
-				- install node security globaly
-				- `npm install -g nsp`
-				- check if there vulnerability
-				- `nsp check`
-				- * https://stackoverflow.com/questions/53716991/node-security-service-shutdown-getaddrinfo-enotfound-api-nodesecurity-io
+	- Install Node and Npm.
+	- create package.json and paste it `bit.ly/jsdevpackagejson`
+	- install devDependencies.
+	- Pacakage security:
+		-	node security platform:
+			- install node security globaly
+			- `npm install -g nsp`
+			- check if there vulnerability
+			- `nsp check`
+			- * https://stackoverflow.com/questions/53716991/node-security-service-shutdown-getaddrinfo-enotfound-api-nodesecurity-io
 
+Review Development Webserver options, config dev webserver,
+service for sharing your work
+
+- Development WebServer:
+
+	- http-server.
+	- live-server.
+	- Express.
+	- Budo.
+	- Webpack.
+	- Browsersync.
+
+- Express:
+
+	- installed as devDependencies.
+	- create folder for server and config it.
+	- create folder for src code and init it.
+	- run node serverfoldername/serverfilename.js
+
+- Sahring Work-in-progress:
+	Easily share work on you local machine to customer
+	and firends.
+
+	- localtunnel.
+	- ngrok.
+	- surge.
+	- now.
