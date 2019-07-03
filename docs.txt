@@ -1,0 +1,32 @@
+JavaScript Development Environment:
+
+- Create repository 'repo name' and init :
+
+    - README.
+    - .gitignore (node).
+    - License.
+
+- Pick your editor must include:
+
+    - Strong ES2015+ support.
+    - Autocompletion.
+    - Parse ES6 imports.
+    - Report unused imports.
+    - Autmated refactoring.
+    - build-in terminal.
+
+- Choose one:
+
+    - Atom.
+    - WebStorm.
+    - Brackets.
+    - VSCode.
+
+- EditorConfig:
+
+    - https://editorconfig.org/
+    - create file .editorconfig and fill it.
+    - install plugin for VSCode
+    - In VSCode open (Ctrl+P) and paste ` ext install EditorConfig.EditorConfig `.
+    
+
