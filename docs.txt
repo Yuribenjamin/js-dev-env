@@ -1,5 +1,7 @@
 JavaScript Development Environment:
 
+Init repository setup the code editor and config
+
 - Create repository 'repo name' and init :
 
     - README.
@@ -28,5 +30,27 @@ JavaScript Development Environment:
     - create file .editorconfig and fill it.
     - install plugin for VSCode
     - In VSCode open (Ctrl+P) and paste ` ext install EditorConfig.EditorConfig `.
-    
+
+Review JS Pacakage Managers, setup up npm, security scanning
+
+- JavaScript Pacakage Managers :
+
+		- Bower.
+		- Npm.
+		- JSPM.
+		- Jam.
+		- volo.
+
+- NPM.
+
+		- Install Node and Npm.
+		- create package.json and paste it `bit.ly/jsdevpackagejson`
+		- install devDependencies.
+		- Pacakage security:
+			-	node security platform:
+				- install node security globaly
+				- `npm install -g nsp`
+				- check if there vulnerability
+				- `nsp check`
+				- * https://stackoverflow.com/questions/53716991/node-security-service-shutdown-getaddrinfo-enotfound-api-nodesecurity-io
 
