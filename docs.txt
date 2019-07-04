@@ -81,3 +81,18 @@ service for sharing your work
 	- ngrok.
 	- surge.
 	- now.
+
+- Automation
+
+	- gulp
+	- grunt
+	- npm scripts *
+
+
+- Automation with npm scripts:
+
+	- package.json add to script new script and named start
+	and the value `node buildScripts/srcServer.js`.
+	- display messgae with prestart create file and fill it
+	and add it to script in package.json file.
+	- script for security check

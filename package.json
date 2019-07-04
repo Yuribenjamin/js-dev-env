@@ -2,7 +2,11 @@
   "name": "javascript-development-environment",
   "version": "1.0.0",
   "description": "JavaScript development environment",
-  "scripts": {},
+  "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js",
+    "security-check": "npm audit fix --force"
+  },
   "author": "Ibrahim-Ragb",
   "license": "GNU GPLv3",
   "dependencies": {
