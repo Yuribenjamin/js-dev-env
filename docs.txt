@@ -96,3 +96,17 @@ service for sharing your work
 	- display messgae with prestart create file and fill it
 	and add it to script in package.json file.
 	- script for security check
+
+- Tanspiling
+
+	- Babel
+	- TypeScript
+	- Elm
+
+	-Babel Configuration Styles
+	choose btetween
+		- .babelrc
+			- not npm specific
+			- easier to read since isolted
+		- package.json
+			- one less file in your project
