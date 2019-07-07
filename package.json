@@ -4,7 +4,8 @@
   "description": "JavaScript development environment",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
-    "start": "babel-node buildScripts/srcServer.js",
+	"start": "babel-node buildScripts/srcServer.js",
+	"lint": "esw webpack.config.* src buildScripts",
     "security-check": "npm audit fix --force"
   },
   "author": "Ibrahim-Ragb",

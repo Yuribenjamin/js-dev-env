@@ -136,4 +136,14 @@ service for sharing your work
 
 	- Set up Webpack
 
-		-
+		- create config file
+		- init with server
+		- create end point
+
+- Linting
+	- Pick a linter
+
+		- jsLint
+		- jsHint
+		- EsLint
+
