@@ -10,12 +10,16 @@
   "author": "Ibrahim-Ragb",
   "license": "GNU GPLv3",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-upgrade": "^1.0.1",
     "whatwg-fetch": "1.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "6.17.0",
-    "babel-loader": "6.2.5",
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^8.0.6",
     "babel-preset-latest": "6.16.0",
     "babel-register": "6.16.3",
     "chai": "3.5.0",

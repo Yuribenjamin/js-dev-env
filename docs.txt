@@ -110,3 +110,30 @@ service for sharing your work
 			- easier to read since isolted
 		- package.json
 			- one less file in your project
+
+- Bundling
+	- 5 Module Formats
+
+		- IIFE
+		- Asynchronous Module Definition
+		- CommonJS
+		- Universal Module Definition
+		- ES6 Modules
+
+	- Why ES6 Modules?
+
+		- Standardized
+		- Statically analyzable
+		- Easy to read
+
+	- Selecting a Bundler
+
+		- Require.js
+		- Browserify
+		- Webpack
+		- Rollup
+		- JSPM
+
+	- Set up Webpack
+
+		-
