@@ -46,9 +46,9 @@ Review JS Pacakage Managers, setup up npm, security scanning
 	- Install Node and Npm.
 	- create package.json and paste it `bit.ly/jsdevpackagejson`
 	- install devDependencies.
-	- Pacakage security:
+	- Package security:
 		-	node security platform:
-			- install node security globaly
+			- install node security globally
 			- `npm install -g nsp`
 			- check if there vulnerability
 			- `nsp check`
@@ -93,7 +93,7 @@ service for sharing your work
 
 	- package.json add to script new script and named start
 	and the value `node buildScripts/srcServer.js`.
-	- display messgae with prestart create file and fill it
+	- display message with prestart create file and fill it
 	and add it to script in package.json file.
 	- script for security check
 
@@ -104,10 +104,10 @@ service for sharing your work
 	- Elm
 
 	-Babel Configuration Styles
-	choose btetween
+	choose between
 		- .babelrc
 			- not npm specific
-			- easier to read since isolted
+			- easier to read since isolated
 		- package.json
 			- one less file in your project
 
@@ -147,3 +147,51 @@ service for sharing your work
 		- jsHint
 		- EsLint
 
+- Testing and Continuous Integration
+
+	- unit testing decisions
+
+		- framework
+			- top 6 :
+
+				- Mocha
+				- Jasmine
+				- Tape
+				- QUnit
+				- AVA
+				- Jest
+
+		- assertion library
+
+			- Whats An Assertion ?
+				Declare What you expect
+		- helper libraries
+		- where to run tests
+		- where do place tests
+		- when to run tests
+
+	- Continuous Integration
+
+		- why CI ?
+
+			- forgot to commit new file
+			- forgot to update package.json
+			- commit doesn't run cross-platform
+			- node version conflicts
+			- bad merge
+			- didn't run tests
+
+		- What Does a CI server Do ?
+
+			- Run Automated build
+			- Run your tests
+			- check code coverage
+			- Automate deployment
+
+		CI:
+			- Travis *
+			- Appveyor *
+			- Jenkins
+			- Circleci
+			- semaphore
+			- snapCI
